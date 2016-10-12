@@ -15,37 +15,32 @@ $ npm install generate-weapp-page --save
 ```js
 const generatePage = require('generate-weapp-page')
 
-generatePage('index', (err, files) => {
-  console.log(files)
+const files = generatePage({
+  name: 'index',
+  json: false,
+  less: true,
+  scss: false,
+  css: false
 })
-
-generatePage({ name: 'index', configuration: false, less: true, scss: false }, (err, files) => {
-  console.log(files)
-})
+console.log(files)
 ```
 
 
 ## Node.js API
 
-### generatePage(option, callback)
+### generatePage(options, callback)
 
-#### option
+#### options
 
-Type: `String`, `Object`
+Type: `Object`
 
-Page name or option.
+options.
 
-#### callback(error, files)
+#### return files
 
-Type: `function`
+Type: `Array` or `Boolean`
 
-`error` is there only by Node.js convention and is always `null`.
-
-##### files
-
-Type: `Array`
-
-Generated files
+Generated files or exists
 
 
 ## License
