@@ -1,0 +1,33 @@
+{
+  "name": "generate-weapp-page",
+  "version": "0.1.0",
+  "description": "Auto generate wechat weapp page",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zce/generate-weapp-page.git"
+  },
+  "keywords": [
+    "wechat",
+    "weapp",
+    "wxapp",
+    "zce",
+    "iceStone",
+    "wedn",
+    "wedn.net",
+    "micua",
+    "micua.com"
+  ],
+  "author": "iceStone <ice@micua.com> (http://www.micua.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zce/generate-weapp-page/issues"
+  },
+  "homepage": "https://github.com/zce/generate-weapp-page#readme",
+  "dependencies": {
+    "mkdirp": "^0.5.1"
+  }
+}
