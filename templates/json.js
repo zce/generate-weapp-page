@@ -9,7 +9,7 @@ module.exports = options => `// Window config
   "navigationBarTextStyle": "black",
   // 导航栏标题文字内容
   // String
-  "navigationBarTitleText": "${name}",
+  "navigationBarTitleText": "${options.name}",
   // 窗口的背景色，默认：#ffffff
   // HexColor
   "backgroundColor": "#ffffff",
