@@ -1,24 +1,24 @@
-module.exports = options => `// Window config
+module.exports = options => `// Window configuration
 // https://mp.weixin.qq.com/debug/wxadoc/dev/framework/config.html#window
 {
+  // 类型：HexColor；默认值：#000000
   // 导航栏背景颜色，如"#000000"
-  // HexColor
-  "navigationBarBackgroundColor": "#000000",
-  // 导航栏标题颜色，仅支持 black/white，默认：white
-  // String
+  "navigationBarBackgroundColor": "#ffffff",
+  // 类型：String；默认值：white
+  // 导航栏标题颜色，仅支持 black/white
   "navigationBarTextStyle": "black",
+  // 类型：String；默认值：无
   // 导航栏标题文字内容
-  // String
   "navigationBarTitleText": "${options.name}",
-  // 窗口的背景色，默认：#ffffff
-  // HexColor
-  "backgroundColor": "#ffffff",
-  // 下拉背景字体、loading 图的样式，仅支持 dark/light，默认：dark
-  // String
-  "backgroundTextStyle": "white",
-  // 是否开启下拉刷新，详见页面相关事件处理函数，默认：false
-  // https://mp.weixin.qq.com/debug/wxadoc/dev/framework/app-service/page.html#页面相关事件处理函数
-  // Boolean
+  // 类型：HexColor；默认值：#ffffff
+  // 窗口的背景色
+  "backgroundColor": "#000000",
+  // 类型：String；默认值：dark
+  // 下拉背景字体、loading 图的样式，仅支持 dark/light
+  "backgroundTextStyle": "light",
+  // 类型：Boolean；默认值：false
+  // 是否开启下拉刷新，详见页面相关事件处理函数。
+  // https://mp.weixin.qq.com/debug/wxadoc/dev/framework/app-service/page.html?t=1476197491005#页面相关事件处理函数
   "enablePullDownRefresh": false
 }
 `
