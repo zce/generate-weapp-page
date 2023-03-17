@@ -28,6 +28,6 @@
   },
   "homepage": "https://github.com/zce/generate-weapp-page#readme",
   "dependencies": {
-    "mkdirp": "^0.5.1"
+    "mkdirp": "^2.0.0"
   }
 }
